@@ -78,37 +78,6 @@ export function ConfirmSection() {
       >
         🎉
       </motion.div>
-
-      <motion.div
-        className="absolute bottom-20 left-20 text-3xl opacity-30"
-        initial={{ opacity: 0, rotate: -30, scale: 0 }}
-        animate={{ opacity: 0.3, rotate: 0, scale: 1 }}
-        transition={{ delay: 1.8, duration: 1 }}
-      >
-        🥳
-      </motion.div>
-
-      <motion.div
-        className="absolute bottom-32 right-12 text-4xl opacity-30"
-        initial={{ opacity: 0, rotate: 60, scale: 0 }}
-        animate={{
-          opacity: 1,
-          rotate: [60, 0, 10, -10, 0],
-          scale: 1,
-        }}
-        transition={{
-          delay: 2.1,
-          duration: 1,
-          rotate: {
-            duration: 3,
-            repeat: Infinity,
-            ease: "easeInOut",
-            times: [0, 0.3, 0.6, 0.8, 1],
-          },
-        }}
-      >
-        🎈
-      </motion.div>
     </div>
   );
 }

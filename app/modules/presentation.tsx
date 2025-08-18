@@ -31,7 +31,7 @@ export function Presentation() {
         }}
       >
         <motion.h1
-          className="text-5xl md:text-7xl text-center text-white drop-shadow-2xl"
+          className="text-4xl md:text-7xl text-center text-white drop-shadow-2xl"
           style={{
             fontFamily: "var(--font-dancing-script)",
             fontWeight: 600,
