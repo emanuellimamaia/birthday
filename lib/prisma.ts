@@ -1,9 +1,4 @@
-import { PrismaClient } from './generated/prisma'
+import { PrismaClient } from '@prisma/client'
 
 // Cria uma nova instância do PrismaClient
-export const prisma = new PrismaClient({
-  log: ['error'],
-})
-
-// Para debugging
-console.log('Prisma Client methods:', Object.getOwnPropertyNames(prisma))
+export const prisma = new PrismaClient()
